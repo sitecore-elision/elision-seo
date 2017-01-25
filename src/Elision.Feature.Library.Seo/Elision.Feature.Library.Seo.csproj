@@ -43,6 +43,90 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EcmaScript.NET">
+      <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\EcmaScript.NET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.DynamicPlaceholders">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.DynamicPlaceholders.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Forms">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Forms.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.CompatibleRenderings">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.CompatibleRenderings.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.FieldEditor">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.FieldEditor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.FieldTokens">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.FieldTokens.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.FieldVisibility">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.FieldVisibility.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.Ioc">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Ioc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.Kernel">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Kernel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.LayoutRenderings">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.LayoutRenderings.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.LookupSourceItems">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.LookupSourceItems.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.Mvc">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.PlaceholderSettings">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.PlaceholderSettings.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.Publishing">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Publishing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.Rules">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Rules.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.SiteResources">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.SiteResources.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.TabbedRenderingSelector">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.TabbedRenderingSelector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.Themes">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Themes.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.UpdateReferences">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.UpdateReferences.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Elision.Foundation.WebEditState">
+      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.WebEditState.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
       <HintPath>..\src\packages\HtmlAgilityPack.1.4.6\lib\Net45\HtmlAgilityPack.dll</HintPath>
       <Private>True</Private>
@@ -51,12 +135,12 @@
       <HintPath>..\src\packages\SharpZipLib.0.86.0\lib\20\ICSharpCode.SharpZipLib.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
-      <HintPath>..\src\packages\Lucene.Net.3.0.3\lib\NET40\Lucene.Net.dll</HintPath>
+    <Reference Include="Iesi.Collections">
+      <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\Iesi.Collections.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\src\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    <Reference Include="Lucene.Net, Version=3.0.3.0, Culture=neutral, PublicKeyToken=85089178b9ac3181, processorArchitecture=MSIL">
+      <HintPath>..\src\packages\Lucene.Net.3.0.3\lib\NET40\Lucene.Net.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
@@ -129,6 +213,10 @@
       <HintPath>..\src\packages\WebActivatorEx.2.0.3\lib\net40\WebActivatorEx.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Yahoo.Yui.Compressor">
+      <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\Yahoo.Yui.Compressor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -157,7 +245,7 @@
     <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.CanonicalUrl.config" />
     <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.ErrorPages.config.example" />
     <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.RobotsTxt.config.example" />
-    <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.SitemapXml.config.example" />
+    <Content Include="sitecore modules\Elision.Foundation\ExperienceEditor\Commands\LaunchFieldEditor.js" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\128x128\twitter.png" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\16x16\twitter.png" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\24x24\twitter.png" />

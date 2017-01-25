@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{D47AA63E-610B-48AB-AEBC-0439BB98D813}</ProjectGuid>
+    <ProjectGuid>{B58445CB-4F45-4796-94F0-5AD82215748B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Elision.Feature.Library.Seo.Tests</RootNamespace>

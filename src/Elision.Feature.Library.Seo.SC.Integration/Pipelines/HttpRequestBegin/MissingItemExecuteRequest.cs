@@ -1,5 +1,5 @@
 using System;
-using Elision.Seo.Caching;
+using Elision.Feature.Library.Seo.SC.Integration.Caching;
 using Sitecore;
 using Sitecore.Configuration;
 using Sitecore.Sites;

@@ -18,7 +18,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{49492247-B
 		TdsGlobal.config = TdsGlobal.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Seo.Tests", "..\..\elision\src\Elision.Seo.Tests\Elision.Feature.Library.Seo.Tests.csproj", "{B58445CB-4F45-4796-94F0-5AD82215748B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Seo.Tests", "Elision.Feature.Library.Seo.Tests\Elision.Feature.Library.Seo.Tests.csproj", "{B58445CB-4F45-4796-94F0-5AD82215748B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
