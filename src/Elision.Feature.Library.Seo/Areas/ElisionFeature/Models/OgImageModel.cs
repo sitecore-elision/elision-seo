@@ -1,4 +1,4 @@
-namespace Elision.Foundation.Areas.Elision.Models
+namespace Elision.Feature.Library.Seo.Areas.ElisionFeature.Models
 {
     public class OgImageModel
     {

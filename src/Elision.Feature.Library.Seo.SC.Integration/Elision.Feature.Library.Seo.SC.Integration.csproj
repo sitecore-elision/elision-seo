@@ -206,6 +206,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Caching\ErrorPagesResponseCache.cs" />
+    <Compile Include="CanonicalUrlExtensions.cs" />
     <Compile Include="Pipelines\GetCanonicalUrl\GetCanonicalUrlArgs.cs" />
     <Compile Include="Pipelines\GetCanonicalUrl\GetCanonicalUrlForAlias.cs" />
     <Compile Include="Pipelines\GetCanonicalUrl\GetCanonicalUrlFromItemField.cs" />

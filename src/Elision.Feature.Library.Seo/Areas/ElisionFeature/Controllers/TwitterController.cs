@@ -1,7 +1,10 @@
 using System.Web.Mvc;
+using Elision.Feature.Library.Seo.Areas.ElisionFeature.Models;
 using Elision.Foundation.Areas.Elision.Models;
 using Sitecore.Data.Items;
 using Sitecore.Mvc.Controllers;
+using Elision.Foundation.Kernel;
+using Templates = Elision.Feature.Library.Seo.SC.Integration.Templates;
 
 namespace Elision.Feature.Library.Seo.Areas.ElisionFeature.Controllers
 {

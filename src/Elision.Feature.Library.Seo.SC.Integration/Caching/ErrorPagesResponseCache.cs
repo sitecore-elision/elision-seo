@@ -22,7 +22,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration.Caching
             SetString(cacheKey, value, DateTime.Now.AddDays(1));
         }
 
-        public void Remove(string cacheKey)
+        public override void Remove(string cacheKey)
         {
             base.Remove(cacheKey);
         }

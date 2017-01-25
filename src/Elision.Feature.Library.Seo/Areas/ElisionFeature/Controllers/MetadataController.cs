@@ -1,4 +1,4 @@
-using Elision.Foundation.Areas.Elision.Models;
+using Elision.Feature.Library.Seo.Areas.ElisionFeature.Models;
 using Sitecore.Mvc.Controllers;
 using Sitecore.Mvc.Presentation;
 

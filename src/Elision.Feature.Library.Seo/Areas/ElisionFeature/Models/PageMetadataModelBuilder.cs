@@ -1,13 +1,14 @@
 using System.Collections.Generic;
 using System.Web;
+using Elision.Feature.Library.Seo.SC.Integration;
 using Elision.Foundation.Kernel;
-using Elision.Seo;
 using Sitecore.Data.Fields;
 using Sitecore.Data.Items;
 using Sitecore.Links;
 using Sitecore.Resources.Media;
+using Templates = Elision.Feature.Library.Seo.SC.Integration.Templates;
 
-namespace Elision.Foundation.Areas.Elision.Models
+namespace Elision.Feature.Library.Seo.Areas.ElisionFeature.Models
 {
     public interface IPageMetadataModelBuilder
     {
