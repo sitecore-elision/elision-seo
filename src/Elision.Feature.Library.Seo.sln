@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Seo", "Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.csproj", "{62C6D061-BBE0-4B8A-9D08-E0970673C084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Seo.SC.Integration", "Elision.Feature.Library.Seo.SC.Integration\Elision.Feature.Library.Seo.SC.Integration.csproj", "{2BB8C8A1-2D7B-4050-8C1F-414B1F1FA38F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{5427D6E2-FEDF-4A08-BA6E-722DB9601239}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{4FB87DB0-E293-4410-8418-20A824DAC2FD}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Library.Seo.Fixtures", "Elision.Feature.Library.Seo.Fixtures\Elision.Feature.Library.Seo.Fixtures.scproj", "{E4BC6CA6-8AA9-425F-813C-475A318F8FA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{49492247-B445-4C75-BFCE-F22B78D4352A}"
+	ProjectSection(SolutionItems) = preProject
+		TdsGlobal.config = TdsGlobal.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Seo.Tests", "..\..\elision\src\Elision.Seo.Tests\Elision.Feature.Library.Seo.Tests.csproj", "{B58445CB-4F45-4796-94F0-5AD82215748B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62C6D061-BBE0-4B8A-9D08-E0970673C084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62C6D061-BBE0-4B8A-9D08-E0970673C084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62C6D061-BBE0-4B8A-9D08-E0970673C084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62C6D061-BBE0-4B8A-9D08-E0970673C084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB8C8A1-2D7B-4050-8C1F-414B1F1FA38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB8C8A1-2D7B-4050-8C1F-414B1F1FA38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB8C8A1-2D7B-4050-8C1F-414B1F1FA38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB8C8A1-2D7B-4050-8C1F-414B1F1FA38F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BC6CA6-8AA9-425F-813C-475A318F8FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4BC6CA6-8AA9-425F-813C-475A318F8FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4BC6CA6-8AA9-425F-813C-475A318F8FA2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E4BC6CA6-8AA9-425F-813C-475A318F8FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4BC6CA6-8AA9-425F-813C-475A318F8FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4BC6CA6-8AA9-425F-813C-475A318F8FA2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B58445CB-4F45-4796-94F0-5AD82215748B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58445CB-4F45-4796-94F0-5AD82215748B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58445CB-4F45-4796-94F0-5AD82215748B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58445CB-4F45-4796-94F0-5AD82215748B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2BB8C8A1-2D7B-4050-8C1F-414B1F1FA38F} = {5427D6E2-FEDF-4A08-BA6E-722DB9601239}
+		{E4BC6CA6-8AA9-425F-813C-475A318F8FA2} = {4FB87DB0-E293-4410-8418-20A824DAC2FD}
+	EndGlobalSection
+EndGlobal
