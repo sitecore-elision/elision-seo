@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Elision.Feature.Library.Seo</id>
+    <version>$version$</version>
+    <title>Elision Seo Feature for Sitecore</title>
+    <authors>jrondeau,PatrickDelancy</authors>
+    <owners>jrondeau</owners>
+    <projectUrl>https://github.com/sitecore-elision/elision-seo</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>This is the Elision SEO feature package to reference if you need to install the entire feature. If you are building a module or other code that just needs to reference Elision SEO feature, use the Elision.Feature.Library.Seo-redist package instead.</description>
+    <releaseNotes></releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>sitecore elision feature seo</tags>
+  </metadata>
+</package>

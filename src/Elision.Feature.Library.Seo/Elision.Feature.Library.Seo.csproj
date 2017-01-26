@@ -251,6 +251,8 @@
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\48x48\twitter.png" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\64x64\twitter.png" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo.zip" />
+    <Content Include="Elision.Feature.Library.Seo.nuspec" />
+    <Content Include="Elision.Feature.Library.Seo.nuspec.beta" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
