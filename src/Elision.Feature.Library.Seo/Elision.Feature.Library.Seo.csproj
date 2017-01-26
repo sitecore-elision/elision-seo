@@ -243,7 +243,6 @@
     <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.CanonicalUrl.config" />
     <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.ErrorPages.config.example" />
     <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.RobotsTxt.config.example" />
-    <Content Include="sitecore modules\Elision.Foundation\ExperienceEditor\Commands\LaunchFieldEditor.js" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\128x128\twitter.png" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\16x16\twitter.png" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\24x24\twitter.png" />
@@ -251,8 +250,8 @@
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\48x48\twitter.png" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\64x64\twitter.png" />
     <Content Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo.zip" />
-    <Content Include="Elision.Feature.Library.Seo.nuspec" />
-    <Content Include="Elision.Feature.Library.Seo.nuspec.beta" />
+    <None Include="Elision.Feature.Library.Seo.nuspec" />
+    <None Include="Elision.Feature.Library.Seo.nuspec.beta" />
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
