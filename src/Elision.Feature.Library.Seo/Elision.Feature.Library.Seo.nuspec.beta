@@ -3,7 +3,7 @@
   <metadata>
     <id>Elision.Feature.Library.Seo-redist</id>
     <version>$version$</version>
-    <title>Elision Seo Feature for Sitecore</title>
+    <title>Elision Seo Feature for Sitecore Redist</title>
     <authors>jrondeau,PatrickDelancy</authors>
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision-seo</projectUrl>
