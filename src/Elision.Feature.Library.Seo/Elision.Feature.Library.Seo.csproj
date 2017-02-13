@@ -45,84 +45,76 @@
       <HintPath>..\packages\YUICompressor.NET.2.1.1.0\lib\NET20\EcmaScript.NET.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.DynamicPlaceholders">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.DynamicPlaceholders.dll</HintPath>
+    <Reference Include="Elision.Foundation, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Forms">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Forms.dll</HintPath>
+    <Reference Include="Elision.Foundation.CompatibleRenderings, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.CompatibleRenderings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.dll</HintPath>
+    <Reference Include="Elision.Foundation.DynamicPlaceholders, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.DynamicPlaceholders.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.CompatibleRenderings">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.CompatibleRenderings.dll</HintPath>
+    <Reference Include="Elision.Foundation.FieldEditor, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.FieldEditor.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.FieldEditor">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.FieldEditor.dll</HintPath>
+    <Reference Include="Elision.Foundation.FieldTokens, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.FieldTokens.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.FieldTokens">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.FieldTokens.dll</HintPath>
+    <Reference Include="Elision.Foundation.FieldVisibility, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.FieldVisibility.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.FieldVisibility">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.FieldVisibility.dll</HintPath>
+    <Reference Include="Elision.Foundation.Kernel, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.Kernel.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Ioc">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Ioc.dll</HintPath>
+    <Reference Include="Elision.Foundation.LayoutRenderings, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.LayoutRenderings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Kernel">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Kernel.dll</HintPath>
+    <Reference Include="Elision.Foundation.LookupSourceItems, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.LookupSourceItems.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.LayoutRenderings">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.LayoutRenderings.dll</HintPath>
+    <Reference Include="Elision.Foundation.Mvc, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.LookupSourceItems">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.LookupSourceItems.dll</HintPath>
+    <Reference Include="Elision.Foundation.PlaceholderSettings, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.PlaceholderSettings.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Mvc">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Mvc.dll</HintPath>
+    <Reference Include="Elision.Foundation.Publishing, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.Publishing.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.PlaceholderSettings">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.PlaceholderSettings.dll</HintPath>
+    <Reference Include="Elision.Foundation.Rules, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.Rules.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Publishing">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Publishing.dll</HintPath>
+    <Reference Include="Elision.Foundation.SiteResources, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.SiteResources.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Rules">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Rules.dll</HintPath>
+    <Reference Include="Elision.Foundation.TabbedRenderingSelector, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.TabbedRenderingSelector.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.SiteResources">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.SiteResources.dll</HintPath>
+    <Reference Include="Elision.Foundation.Themes, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.Themes.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.TabbedRenderingSelector">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.TabbedRenderingSelector.dll</HintPath>
+    <Reference Include="Elision.Foundation.UpdateReferences, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.UpdateReferences.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Elision.Foundation.Themes">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.Themes.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Elision.Foundation.UpdateReferences">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.UpdateReferences.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Elision.Foundation.WebEditState">
-      <HintPath>..\packages\Elision.Foundation-redist.0.2.0-pre\lib\net452\Elision.Foundation.WebEditState.dll</HintPath>
+    <Reference Include="Elision.Foundation.WebEditState, Version=0.5.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Elision.Foundation-redist.0.5.1-pre\lib\net452\Elision.Foundation.WebEditState.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="HtmlAgilityPack, Version=1.4.6.0, Culture=neutral, PublicKeyToken=bd319b19eaf3b43a, processorArchitecture=MSIL">
@@ -243,6 +235,7 @@
     <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.CanonicalUrl.config" />
     <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.ErrorPages.config.example" />
     <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.RobotsTxt.config.example" />
+    <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.RegisterDependencies.config" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\128x128\twitter.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\16x16\twitter.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\24x24\twitter.png" />
@@ -255,6 +248,7 @@
     <None Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\RegisterDependencies.cs" />
     <Compile Include="Areas\ElisionFeature\Controllers\MetadataController.cs" />
     <Compile Include="Areas\ElisionFeature\Controllers\TwitterController.cs" />
     <Compile Include="Areas\ElisionFeature\Models\OgImageModel.cs" />
