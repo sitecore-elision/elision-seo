@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".tds", ".tds", "{49492247-B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elision.Feature.Library.Seo.Tests", "Elision.Feature.Library.Seo.Tests\Elision.Feature.Library.Seo.Tests.csproj", "{B58445CB-4F45-4796-94F0-5AD82215748B}"
 EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Elision.Feature.Library.Seo.Core", "Elision.Feature.Library.Seo.Core\Elision.Feature.Library.Seo.Core.scproj", "{09E4612C-BCCA-4886-A470-6FD7D85AAB6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{B58445CB-4F45-4796-94F0-5AD82215748B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B58445CB-4F45-4796-94F0-5AD82215748B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B58445CB-4F45-4796-94F0-5AD82215748B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E4612C-BCCA-4886-A470-6FD7D85AAB6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09E4612C-BCCA-4886-A470-6FD7D85AAB6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09E4612C-BCCA-4886-A470-6FD7D85AAB6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09E4612C-BCCA-4886-A470-6FD7D85AAB6A}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,5 +55,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{2BB8C8A1-2D7B-4050-8C1F-414B1F1FA38F} = {5427D6E2-FEDF-4A08-BA6E-722DB9601239}
 		{E4BC6CA6-8AA9-425F-813C-475A318F8FA2} = {4FB87DB0-E293-4410-8418-20A824DAC2FD}
+		{09E4612C-BCCA-4886-A470-6FD7D85AAB6A} = {4FB87DB0-E293-4410-8418-20A824DAC2FD}
 	EndGlobalSection
 EndGlobal
