@@ -7,6 +7,7 @@
     <authors>jrondeau,PatrickDelancy</authors>
     <owners>jrondeau</owners>
     <projectUrl>https://github.com/sitecore-elision/elision-seo</projectUrl>
+    <iconUrl>https://image.ibb.co/ihBV7Q/Elision_Logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>This is the Elision SEO feature package to reference if you are building a module or other code that just needs to reference Elision SEO feature. If you need to install Elision's SEO feature, use the Elision.Feature.Library.Seo package instead.</description>
     <releaseNotes></releaseNotes>
