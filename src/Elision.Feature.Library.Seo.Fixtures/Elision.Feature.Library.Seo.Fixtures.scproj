@@ -54,7 +54,7 @@
     <NuGetGenerateNuGetPackage>True</NuGetGenerateNuGetPackage>
     <NuGetExePath>..\.nuget</NuGetExePath>
     <NuGetSummary />
-    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision SEO.  Compatible with Sitecore 8.2 Update 2.</NuGetDescription>
+    <NuGetDescription>TDS Feature Layer Item Fixtures for use with Elision SEO.  Compatible with Sitecore 9.</NuGetDescription>
     <NuGetTitle>Elision.Feature.Library.Seo TDS Fixtures</NuGetTitle>
     <NuGetVersion>0.0.1</NuGetVersion>
     <NuGetPackageId>Sitecore.Elision.Feature.Library.Seo.Fixtures</NuGetPackageId>
@@ -105,19 +105,27 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFeatureLibrarySeo.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureLibrarySeo.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFeatureLibrarySeo\Seo.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureLibrarySeo\Seo.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFeatureLibrarySeo\Seo\PageMetadata.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureLibrarySeo\Seo\PageMetadata.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\layout\Renderings\ElisionFeatureLibrarySeo\Seo\TwitterCardMeta.item">
+    <SitecoreItem Include="sitecore\layout\Renderings\Elision\Feature\ElisionFeatureLibrarySeo\Seo\TwitterCardMeta.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -129,23 +137,31 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\ElisionFeatureLibrarySeo.item">
+    <SitecoreItem Include="sitecore\system\Settings\Elision.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Settings\Elision\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\system\Settings\Elision\Feature\ElisionFeatureLibrarySeo.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\ElisionFeatureLibrarySeo\Option Lists.item">
+    <SitecoreItem Include="sitecore\system\Settings\Elision\Feature\ElisionFeatureLibrarySeo\Option Lists.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\ElisionFeatureLibrarySeo\Option Lists\TwitterCardTypes.item">
+    <SitecoreItem Include="sitecore\system\Settings\Elision\Feature\ElisionFeatureLibrarySeo\Option Lists\TwitterCardTypes.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\ElisionFeatureLibrarySeo\Option Lists\TwitterCardTypes\summary.item">
+    <SitecoreItem Include="sitecore\system\Settings\Elision\Feature\ElisionFeatureLibrarySeo\Option Lists\TwitterCardTypes\summary.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\system\Settings\ElisionFeatureLibrarySeo\Option Lists\TwitterCardTypes\summary_large_image.item">
+    <SitecoreItem Include="sitecore\system\Settings\Elision\Feature\ElisionFeatureLibrarySeo\Option Lists\TwitterCardTypes\summary_large_image.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
@@ -153,127 +169,135 @@
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo.item">
+    <SitecoreItem Include="sitecore\templates\Elision.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Elision\Feature.item">
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+      <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgDescription.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgDescription.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgImage.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgImage.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgSiteName.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgSiteName.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgTitle.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgTitle.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgType.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_OpenGraphMeta\Open Graph Data\OgType.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_PageMetaFields.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_PageMetaFields.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\BlockSearchEngineIndexing.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\BlockSearchEngineIndexing.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\BlockSearchEngineLinkFollowing.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\BlockSearchEngineLinkFollowing.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\BrowserTitle.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\BrowserTitle.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\CanonicalUrl.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\CanonicalUrl.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\MetaDescription.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\MetaDescription.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\MetaKeywords.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_PageMetaFields\Metadata\MetaKeywords.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_SiteMetaFields.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_SiteMetaFields.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_SiteMetaFields\Metadata.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_SiteMetaFields\Metadata.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_SiteMetaFields\Metadata\BrowserTitleSuffix.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_SiteMetaFields\Metadata\BrowserTitleSuffix.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardContentCreator.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardContentCreator.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardDescription.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardDescription.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardImage.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardImage.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardSite.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardSite.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardSiteId.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardSiteId.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardTitle.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardTitle.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardType.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Base\_TwitterCardsMeta\Twitter Card\TwitterCardType.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Options.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Options.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\templates\ElisionFeatureLibrarySeo\Options\TwitterCardType.item">
+    <SitecoreItem Include="sitecore\templates\Elision\Feature\ElisionFeatureLibrarySeo\Options\TwitterCardType.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>

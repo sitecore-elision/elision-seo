@@ -18,7 +18,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{035D7D88-5A24-41D8-8D5F-CDDFF0397295}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta</description></item>
         /// </list>
         /// </summary>
         public struct _TwitterCardsMeta
@@ -33,7 +33,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID TwitterCardContentCreator = new ID("{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}");
@@ -41,7 +41,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID TwitterCardDescription = new ID("{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}");
@@ -49,7 +49,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Image</description></item>
                 ///     <item><term>Field ID:</term><description>{BA3C147E-035B-478F-829B-FE233775648F}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID TwitterCardImage = new ID("{BA3C147E-035B-478F-829B-FE233775648F}");
@@ -58,7 +58,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{BA005D3B-393D-4594-8508-70A503925DCD}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID TwitterCardSite = new ID("{BA005D3B-393D-4594-8508-70A503925DCD}");
@@ -67,7 +67,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{217988BC-4DDE-4B44-A688-DFB8F69C6061}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID TwitterCardSiteId = new ID("{217988BC-4DDE-4B44-A688-DFB8F69C6061}");
@@ -75,7 +75,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{0181FE49-A838-496D-8690-935282E599F3}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID TwitterCardTitle = new ID("{0181FE49-A838-496D-8690-935282E599F3}");
@@ -83,7 +83,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Droplist</description></item>
                 ///     <item><term>Field ID:</term><description>{579ED843-06B5-4E31-9B98-0D4B12E418AB}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID TwitterCardType = new ID("{579ED843-06B5-4E31-9B98-0D4B12E418AB}");
@@ -96,7 +96,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{F4DED7B3-8B6F-46D8-902C-1C119BDA1699}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardContentCreator</description></item>
                 /// </list>
                 /// </summary>
                 public const string TwitterCardContentCreator = "TwitterCardContentCreator";
@@ -104,7 +104,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{5B3DD1A3-40F8-42BE-900E-53FA38195AF1}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardDescription</description></item>
                 /// </list>
                 /// </summary>
                 public const string TwitterCardDescription = "TwitterCardDescription";
@@ -112,7 +112,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Image</description></item>
                 ///     <item><term>Field ID:</term><description>{BA3C147E-035B-478F-829B-FE233775648F}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardImage</description></item>
                 /// </list>
                 /// </summary>
                 public const string TwitterCardImage = "TwitterCardImage";
@@ -121,7 +121,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{BA005D3B-393D-4594-8508-70A503925DCD}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardSite</description></item>
                 /// </list>
                 /// </summary>
                 public const string TwitterCardSite = "TwitterCardSite";
@@ -130,7 +130,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{217988BC-4DDE-4B44-A688-DFB8F69C6061}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardSiteId</description></item>
                 /// </list>
                 /// </summary>
                 public const string TwitterCardSiteId = "TwitterCardSiteId";
@@ -138,7 +138,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{0181FE49-A838-496D-8690-935282E599F3}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardTitle</description></item>
                 /// </list>
                 /// </summary>
                 public const string TwitterCardTitle = "TwitterCardTitle";
@@ -146,7 +146,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Droplist</description></item>
                 ///     <item><term>Field ID:</term><description>{579ED843-06B5-4E31-9B98-0D4B12E418AB}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_TwitterCardsMeta/Twitter Card/TwitterCardType</description></item>
                 /// </list>
                 /// </summary>
                 public const string TwitterCardType = "TwitterCardType";
@@ -161,7 +161,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{27F032BB-8130-43B2-8E5D-7F63B000D2F6}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_SiteMetaFields</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_SiteMetaFields</description></item>
         /// </list>
         /// </summary>
         public struct _SiteMetaFields
@@ -176,7 +176,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_SiteMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_SiteMetaFields/Metadata/BrowserTitleSuffix</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID BrowserTitleSuffix = new ID("{8E87381A-CCA5-4EC4-98B4-CC39023C6503}");
@@ -189,7 +189,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{8E87381A-CCA5-4EC4-98B4-CC39023C6503}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_SiteMetaFields/Metadata/BrowserTitleSuffix</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_SiteMetaFields/Metadata/BrowserTitleSuffix</description></item>
                 /// </list>
                 /// </summary>
                 public const string BrowserTitleSuffix = "BrowserTitleSuffix";
@@ -204,7 +204,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{359D47A4-7DD7-465B-9060-04020CC90386}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta</description></item>
         /// </list>
         /// </summary>
         public struct _OpenGraphMeta
@@ -218,7 +218,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID OgDescription = new ID("{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}");
@@ -226,7 +226,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Image</description></item>
                 ///     <item><term>Field ID:</term><description>{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID OgImage = new ID("{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}");
@@ -234,7 +234,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID OgSiteName = new ID("{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}");
@@ -242,7 +242,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{9CE2BFC9-04C1-429C-B388-152506E97078}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID OgTitle = new ID("{9CE2BFC9-04C1-429C-B388-152506E97078}");
@@ -250,7 +250,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgType</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgType</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID OgType = new ID("{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}");
@@ -262,7 +262,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{475A8C93-A6CB-4D6B-A288-58FD09FB7A18}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgDescription</description></item>
                 /// </list>
                 /// </summary>
                 public const string OgDescription = "OgDescription";
@@ -270,7 +270,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Image</description></item>
                 ///     <item><term>Field ID:</term><description>{F046BEA2-BB06-4CEB-B87D-2F1A28A6D101}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgImage</description></item>
                 /// </list>
                 /// </summary>
                 public const string OgImage = "OgImage";
@@ -278,7 +278,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{15D1129E-D78D-4EE4-A005-0CC1617A5F4D}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgSiteName</description></item>
                 /// </list>
                 /// </summary>
                 public const string OgSiteName = "OgSiteName";
@@ -286,7 +286,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{9CE2BFC9-04C1-429C-B388-152506E97078}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgTitle</description></item>
                 /// </list>
                 /// </summary>
                 public const string OgTitle = "OgTitle";
@@ -294,7 +294,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{4E4F0C39-6B77-43F5-AB56-8AEFAA395819}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgType</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_OpenGraphMeta/Open Graph Data/OgType</description></item>
                 /// </list>
                 /// </summary>
                 public const string OgType = "OgType";
@@ -311,7 +311,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
             /// <summary>
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{422BF485-564D-460D-8F7A-E708C4DA9118}</description></item>
-            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/ElisionFeatureLibrarySeo/Seo/TwitterCardMeta</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureLibrarySeo/Seo/TwitterCardMeta</description></item>
             /// </list>
             /// </summary>
             public static readonly ID TwitterCardMeta = new ID("{422BF485-564D-460D-8F7A-E708C4DA9118}");
@@ -327,7 +327,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
             /// <summary>
             /// <list type="table">
             ///     <item><term>Rendering ID:</term><description>{459D9770-0CDE-4865-9E46-6A73836A9BB1}</description></item>
-            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/ElisionFeatureLibrarySeo/Seo/PageMetadata</description></item>
+            ///     <item><term>Path:</term><description>/sitecore/layout/Renderings/Elision/Feature/ElisionFeatureLibrarySeo/Seo/PageMetadata</description></item>
             /// </list>
             /// </summary>
             public static readonly ID PageMetadata = new ID("{459D9770-0CDE-4865-9E46-6A73836A9BB1}");
@@ -341,7 +341,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{6F0FABD4-47AB-461A-959E-B4D292EE01E5}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields</description></item>
         /// </list>
         /// </summary>
         public struct _PageMetaFields
@@ -355,7 +355,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID BlockSearchEngineIndexing = new ID("{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}");
@@ -363,7 +363,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID BlockSearchEngineLinkFollowing = new ID("{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}");
@@ -371,7 +371,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BrowserTitle</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BrowserTitle</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID BrowserTitle = new ID("{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}");
@@ -379,7 +379,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/CanonicalUrl</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/CanonicalUrl</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID CanonicalUrl = new ID("{C0AD316F-EEC8-494D-A30A-356C10E8853E}");
@@ -387,7 +387,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{D62C4448-2E23-4393-939D-F489DCFB881E}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/MetaDescription</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/MetaDescription</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID MetaDescription = new ID("{D62C4448-2E23-4393-939D-F489DCFB881E}");
@@ -395,7 +395,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/MetaKeywords</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/MetaKeywords</description></item>
                 /// </list>
                 /// </summary>
                 public static readonly ID MetaKeywords = new ID("{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}");
@@ -407,7 +407,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{0ED18C8B-E06A-4F49-8F9E-8346F1A3294C}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BlockSearchEngineIndexing</description></item>
                 /// </list>
                 /// </summary>
                 public const string BlockSearchEngineIndexing = "BlockSearchEngineIndexing";
@@ -415,7 +415,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Checkbox</description></item>
                 ///     <item><term>Field ID:</term><description>{7FB8D83D-C981-49D9-B352-953E5C6BE7CF}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BlockSearchEngineLinkFollowing</description></item>
                 /// </list>
                 /// </summary>
                 public const string BlockSearchEngineLinkFollowing = "BlockSearchEngineLinkFollowing";
@@ -423,7 +423,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{D6CB41B5-9467-4C42-95AC-B62584A1F5F0}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BrowserTitle</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/BrowserTitle</description></item>
                 /// </list>
                 /// </summary>
                 public const string BrowserTitle = "BrowserTitle";
@@ -431,7 +431,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{C0AD316F-EEC8-494D-A30A-356C10E8853E}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/CanonicalUrl</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/CanonicalUrl</description></item>
                 /// </list>
                 /// </summary>
                 public const string CanonicalUrl = "CanonicalUrl";
@@ -439,7 +439,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{D62C4448-2E23-4393-939D-F489DCFB881E}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/MetaDescription</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/MetaDescription</description></item>
                 /// </list>
                 /// </summary>
                 public const string MetaDescription = "MetaDescription";
@@ -447,7 +447,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
                 /// <list type="table">
                 ///     <item><term>Field Type:</term><description>Single-Line Text</description></item>
                 ///     <item><term>Field ID:</term><description>{DEAD7283-98C8-4AB8-924E-0DEB00858EFB}</description></item>
-                ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/MetaKeywords</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Base/_PageMetaFields/Metadata/MetaKeywords</description></item>
                 /// </list>
                 /// </summary>
                 public const string MetaKeywords = "MetaKeywords";
@@ -462,7 +462,7 @@ namespace Elision.Feature.Library.Seo.SC.Integration
         /// <summary>
         /// <list type="table">
         ///     <item><term>Template ID:</term><description>{A42909C1-539E-46E4-9F1F-DB999603D6DE}</description></item>
-        ///     <item><term>Path:</term><description>/sitecore/templates/ElisionFeatureLibrarySeo/Options/TwitterCardType</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Elision/Feature/ElisionFeatureLibrarySeo/Options/TwitterCardType</description></item>
         /// </list>
         /// </summary>
         public struct TwitterCardType

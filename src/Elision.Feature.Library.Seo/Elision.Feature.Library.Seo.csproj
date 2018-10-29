@@ -258,10 +258,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.CanonicalUrl.config" />
-    <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.ErrorPages.config.example" />
-    <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.RobotsTxt.config.example" />
-    <Content Include="App_Config\Include\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.RegisterDependencies.config" />
+    <Content Include="App_Config\Include\Feature\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.CanonicalUrl.config" />
+    <Content Include="App_Config\Include\Feature\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.ErrorPages.config.example" />
+    <Content Include="App_Config\Include\Feature\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.RobotsTxt.config.example" />
+    <Content Include="App_Config\Include\Feature\Elision.Feature.Library.Seo\Elision.Feature.Library.Seo.RegisterDependencies.config" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\128x128\twitter.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\16x16\twitter.png" />
     <None Include="sitecore\shell\Themes\Standard\Elision.Feature.Library.Seo\24x24\twitter.png" />
