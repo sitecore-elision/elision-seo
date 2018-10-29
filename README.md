@@ -6,4 +6,4 @@
 
 - release: [![Build status](https://ci.appveyor.com/api/projects/status/bkej4t48ncjs46ak/branch/release?svg=true)](https://ci.appveyor.com/project/SitecoreElision/elision-seo-vfmn8/branch/release)
 
-- master: N/A
+- master: [![Build status](https://ci.appveyor.com/api/projects/status/xsq9pwyxgbak3yio?svg=true)](https://ci.appveyor.com/project/SitecoreElision/elision-seo-r31ah)
