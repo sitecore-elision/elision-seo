@@ -340,6 +340,47 @@ namespace Elision.Feature.Library.Seo.SC.Integration
     {
         /// <summary>
         /// <list type="table">
+        ///     <item><term>Template ID:</term><description>{4B16534B-BC1B-4CD5-B62C-440F0AE2D842}</description></item>
+        ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureLibrarySeo/Base/_RobotsContent</description></item>
+        /// </list>
+        /// </summary>
+        public struct _RobotsContent
+        {
+            public static readonly ID TemplateId = new ID("{4B16534B-BC1B-4CD5-B62C-440F0AE2D842}");
+            public const string Name = "_RobotsContent";
+
+            public struct FieldIds
+            {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A0BA03BF-1357-4A78-B1E6-378CED331B5E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureLibrarySeo/Base/_RobotsContent/Robots/RobotsContent</description></item>
+                /// </list>
+                /// </summary>
+                public static readonly ID RobotsContent = new ID("{A0BA03BF-1357-4A78-B1E6-378CED331B5E}");
+            }
+
+            public struct FieldNames
+            {
+                /// <summary>
+                /// <list type="table">
+                ///     <item><term>Field Type:</term><description>Multi-Line Text</description></item>
+                ///     <item><term>Field ID:</term><description>{A0BA03BF-1357-4A78-B1E6-378CED331B5E}</description></item>
+                ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureLibrarySeo/Base/_RobotsContent/Robots/RobotsContent</description></item>
+                /// </list>
+                /// </summary>
+                public const string RobotsContent = "RobotsContent";
+            }
+		}
+    }
+}
+namespace Elision.Feature.Library.Seo.SC.Integration
+{
+	public partial struct Templates
+    {
+        /// <summary>
+        /// <list type="table">
         ///     <item><term>Template ID:</term><description>{6F0FABD4-47AB-461A-959E-B4D292EE01E5}</description></item>
         ///     <item><term>Path:</term><description>/sitecore/templates/Feature/Elision/ElisionFeatureLibrarySeo/Base/_PageMetaFields</description></item>
         /// </list>
