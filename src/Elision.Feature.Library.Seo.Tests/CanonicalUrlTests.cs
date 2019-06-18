@@ -61,11 +61,11 @@ namespace Elision.Feature.Library.Seo.Tests
                 };
             aliases.ParentID = Sitecore.ItemIDs.SystemRoot;
 
-            var db = new Db()
-                {
+            var db = new Db
+            {
                     aliases,
                     pageItem
-                };
+            };
             return db;
         }
     }
